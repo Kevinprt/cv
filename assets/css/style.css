@@ -1,0 +1,148 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0 auto;
+    background-color:#6D071A ;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+.img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px; 
+}
+
+figure {
+    width: 150px;
+    height: 150px;
+    cursor:zoom-in;
+}
+
+#moi{
+    /**/
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
+h1{
+    text-transform: uppercase;
+    color: white;
+}
+.job{
+    font-weight: bold ;
+    font-size: 1.2em;
+    color: white;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #461a33;
+    padding: 10px;
+    color: white;
+    width: 100%;
+}
+.coordonnée{
+    width: 10%;
+    padding-left: 50px;   
+}
+
+#mail {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+.information_personnel{
+    width: 20%;
+    padding-right: 20px;
+    color: white;
+}
+
+.propos{
+    text-indent: 15%;
+    padding-left: 10px;   
+}
+.information{
+    width: 80%;
+    height: 80%;
+    padding-left: 20px;
+    background-color: white;
+}
+
+.professional{
+    height: 30%;
+    overflow: scroll;
+}
+
+h2{
+    color: black;
+    padding-left: 5px;
+    background-color: burlywood;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    width: 50px;
+    height: 50px;
+}
+
+#linkedin{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    padding: 20px;
+    cursor: pointer;
+}
+
+#twitter{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    padding: 20px;
+    cursor: pointer;
+}
+
+#insta{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.update{
+    color:white;
+    font-size: 1em;
+}
